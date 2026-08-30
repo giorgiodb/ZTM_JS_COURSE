@@ -1,0 +1,171 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    color: #54575A;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+    font-family: Poppins, sans-serif;
+}
+
+* {
+    user-select: none;
+}
+
+.wrapper {
+    width: 1440px;
+    position: relative;
+    height: 1379px;
+    margin: auto;
+}
+
+.brand-img {
+    position: absolute;
+    width: 193px;
+    height: 47px;
+    top: 50px;
+    left: 221px;
+}
+
+.app-store-btn {
+    position: absolute;
+    width: 138px;
+    height: 46px;
+    top: 531px;
+    left: 221px;
+    margin-top: 30px;
+}
+
+.app-store-btn img {
+    width: 138px;
+    height: 46px;
+}
+
+.google-play-btn {
+    position: absolute;
+    width: 156px;
+    height: 46px;
+    top: 531px;
+    left: 381.81px;
+    margin-top: 30px;
+}
+
+.google-play-btn img {
+    width: 156px;
+    height: 46px;
+}
+
+.main-image-container {
+    position: absolute;
+    width: 535px;
+    height: 411px;
+    top: 229.73px;
+    left: 683.28px;
+}
+
+.main-image-container img {
+    height: 411px;
+}
+
+.profile-img {
+    position: absolute;
+    width: 224px;
+    height: 444px;
+    top: 686px;
+    left: 737px;
+    object-fit: contain;
+}
+
+.orders-img {
+    position: absolute;
+    width: 224px;
+    height: 470px;
+    top: 960px;
+    left: 479px;
+    object-fit: contain;
+}
+
+.home-img {
+    position: absolute;
+    width: 224px;
+    height: 470px;
+    top: 960px;
+    left: 995px;
+    object-fit: contain;
+}
+
+.cart-img {
+    position: absolute;
+    width: 224px;
+    height: 222px;
+    top: 1180px;
+    left: 221px;
+    object-fit: contain;
+}
+
+.product-img {
+    position: absolute;
+    width: 224px;
+    height: 222px;
+    top: 1180px;
+    left: 737px;
+    object-fit: contain;
+}
+
+.title {
+    position: absolute;
+    width: 458px;
+    height: 135px;
+    top: 236px;
+    left: 221px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 67.5px;
+    letter-spacing: 0%;
+}
+
+.text {
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    top: 403px;
+    left: 221px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.background-toggles {
+    position: absolute;
+    right: 150px;
+    top: 70px;
+    display: flex;
+}
+
+.background-toggles>div {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+/* Backgrounds */
+.background-1 {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23b1b1b1' fill-opacity='0.2' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-2 {
+    background: #283048;
+    background: linear-gradient(to right, #aed9e8, #6082e7);
+}
+
+.background-3 {
+    background: #152331;
+    background: linear-gradient(to right, #e6e6e6, #152331);
+}
